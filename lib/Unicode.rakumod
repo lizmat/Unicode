@@ -45,7 +45,7 @@ my class Unicode {
 }
 
 my sub EXPORT() {
-    BEGIN CORE::Unicode =:= Nil
+    CORE::Unicode =:= Nil
       ?? Map.new( Pair.new("Unicode", Unicode) )
       !! Map.new
 }
