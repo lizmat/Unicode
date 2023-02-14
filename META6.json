@@ -1,0 +1,25 @@
+{
+  "auth": "zef:lizmat",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+  ],
+  "depends": [
+  ],
+  "description": "provide information about Unicode versions",
+  "license": "Artistic-2.0",
+  "name": "Unicode",
+  "perl": "6.d",
+  "provides": {
+    "Unicode": "lib/Unicode.rakumod"
+  },
+  "resources": [
+  ],
+  "source-url": "https://github.com/lizmat/Unicode.git",
+  "tags": [
+  ],
+  "test-depends": [
+  ],
+  "version": "0.0.1"
+}

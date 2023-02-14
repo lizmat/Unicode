@@ -1,0 +1,9 @@
+use Test;
+use Unicode;
+
+plan 2;
+
+isa-ok Unicode.version, Version, 'did we get a Version?';
+isa-ok Unicode.NFG, Bool, 'did we get a Bool?';
+
+# vim: expandtab shiftwidth=4
